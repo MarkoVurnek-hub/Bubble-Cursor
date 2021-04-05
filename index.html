@@ -6,7 +6,7 @@
     <title>Cool Cursor</title>
     <link rel="stylesheet" href="./sass/styles.scss" />
   </head>
-  <body>
+  <body class="loading">
     <!-- Header -->
     <header>
       <div class="header-inner">
@@ -40,15 +40,15 @@
                 <h1>We make it happen</h1>
               </div>
               <div class="hero-inner-links">
-                <div class="hero-inner-link-item">
+                <div data-video-src="websites" class="hero-inner-link-item">
                   <div class="hero-inner-link-item-padding"></div>
                   <a href="/"> <span>Websites</span></a>
                 </div>
-                <div class="hero-inner-link-item">
+                <div data-video-src="apps" class="hero-inner-link-item">
                   <div class="hero-inner-link-item-padding"></div>
                   <a href="/"> <span>Apps</span></a>
                 </div>
-                <div class="hero-inner-link-item">
+                <div data-video-src="branding" class="hero-inner-link-item">
                   <div class="hero-inner-link-item-padding"></div>
                   <a href="/"> <span>Branding</span></a>
                 </div>
@@ -94,7 +94,7 @@
           autoplay
           muted
           loop
-          id="websites"
+          id="apps"
         ></video>
         <video
           src="videos/branding.mp4"
@@ -102,7 +102,7 @@
           autoplay
           muted
           loop
-          id="websites"
+          id="branding"
         ></video>
       </div>
     </div>
